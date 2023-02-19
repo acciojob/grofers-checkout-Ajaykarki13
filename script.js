@@ -12,7 +12,7 @@ for(let i=0;i<prices.length;i++)
 		}
 	let lastrow =  document.createElement("tr")
 	lastrow.innerHTML =
-		`<td>total price</td
+	`<td></td>
   <td>${sum}</td>` ;
 	let table = document.querySelector(".table")
   table.append(lastrow)
