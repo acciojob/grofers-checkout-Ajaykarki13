@@ -10,12 +10,13 @@ for(let i=0;i<prices.length;i++)
 		{
 			sum = sum + parseInt( prices[i].innerHTML)
 		}
-	let lastrow =  document.createElement("tr")
+	//let lastrow =  document.createElement("tr")
+	let lastrow =document.querySelector(".total")
 	lastrow.innerHTML =
-	`<td></td>
+	`
   <td>${sum}</td>` ;
-	let table = document.querySelector(".table")
-  table.append(lastrow)
+	//let table = document.querySelector(".table")
+ // table.append(lastrow)
 
 };
 getSumBtn.addEventListener("click", getSum);
